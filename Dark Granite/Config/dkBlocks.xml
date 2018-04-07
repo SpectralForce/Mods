@@ -1,0 +1,120 @@
+<configs>
+	<config name="blocks">
+		<append xpath="/blocks">
+
+			<!-- Dark Granite Blocks -->
+
+			<block id="" name="darkGranitePillar100">
+				<property name="Extends" value="rConcreteMaster" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#darkGraniteBlocks?DarkGranitePillar100Prefab" />
+				<property name="CustomIcon" value="ui_game_symbol_dkpillar100" />
+				<property name="Place" value="TowardsPlacerInverted" />
+				<property name="DowngradeBlock" value="pouredConcretePillar100" />
+				<property name="MaxDamage" value="8000" /> 
+			</block> 
+
+			<block id="" name="darkGranitePillar50">
+				<property name="Extends" value="rConcreteMaster" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#darkGraniteBlocks?DarkGranitePillar50Prefab" />
+				<property name="CustomIcon" value="ui_game_symbol_dkpillar50" />
+				<property name="Place" value="TowardsPlacerInverted" />
+				<property name="DowngradeBlock" value="pouredConcretePillar50" />
+				<property name="MaxDamage" value="8000" /> 
+			</block> 
+
+			<block id="" name="darkGraniteBlock">
+				<property name="Extends" value="rConcreteMaster" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#darkGraniteBlocks?DarkGraniteBlockPrefab" />
+				<property name="CustomIcon" value="ui_game_symbol_dkblock"/>
+				<property name="Place" value="TowardsPlacerInverted" />
+				<property name="DowngradeBlock" value="pouredConcreteBlock" />
+				<property name="MaxDamage" value="8000" />
+			</block>	
+
+			<block id="" name="darkGraniteRamp">
+				<property name="Extends" value="rConcreteMaster" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#darkGraniteBlocks?darkGraniteRampPrefab" />
+				<property name="CustomIcon" value="ui_game_symbol_dkramp"/>
+				<property name="Place" value="TowardsPlacerInverted" />
+				<property name="DowngradeBlock" value="pouredConcreteRamp" />
+				<property name="MaxDamage" value="8000" />
+			</block>	
+
+			<block id="" name="darkGranitePlate">
+				<property name="Extends" value="rConcreteMaster" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#darkGraniteBlocks?darkGranitePlatePrefab" />
+				<property name="CustomIcon" value="ui_game_symbol_dkplate"/>
+				<property name="Place" value="TowardsPlacerInverted" />
+				<property name="DowngradeBlock" value="pouredConcretePlate" />
+				<property name="MaxDamage" value="8000" />
+			</block>	
+
+			<block id="" name="darkGraniteHalf">
+				<property name="Extends" value="rConcreteMaster" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#darkGraniteBlocks?darkGraniteHalfPrefab" />
+				<property name="CustomIcon" value="ui_game_symbol_dkhalf"/>
+				<property name="Place" value="TowardsPlacerInverted" />
+				<property name="DowngradeBlock" value="pouredConcreteHalf" />
+				<property name="MaxDamage" value="8000" />
+			</block>	
+
+		</append>
+	</config>
+
+	<config name="recipes">
+		<append xpath="/recipes">
+
+			<!--* Recipes for Creating Dark Granite Blocks -->
+
+			<recipe name="darkGranitePillar100" count="1" craft_area="forge">
+				<ingredient name="cement" count="100"/>
+				<ingredient name="unit_stone" count="500"/>
+				<ingredient name="unit_clay" count="100"/>
+				<ingredient name="paint" count="5"/>
+			</recipe>
+
+			<recipe name="darkGranitePillar50" count="1" craft_area="forge">
+				<ingredient name="cement" count="100"/>
+				<ingredient name="unit_stone" count="500"/>
+				<ingredient name="unit_clay" count="100"/>
+				<ingredient name="paint" count="5"/>
+			</recipe>			
+
+			<recipe name="darkGraniteBlock" count="1" craft_area="forge">
+				<ingredient name="cement" count="100"/>
+				<ingredient name="unit_stone" count="500"/>
+				<ingredient name="unit_clay" count="100"/>
+				<ingredient name="paint" count="5"/>
+			</recipe>
+
+			<recipe name="darkGraniteRamp" count="1" craft_area="forge">
+				<ingredient name="cement" count="100"/>
+				<ingredient name="unit_stone" count="500"/>
+				<ingredient name="unit_clay" count="100"/>
+				<ingredient name="paint" count="5"/>
+			</recipe>
+
+			<recipe name="darkGranitePlate" count="1" craft_area="forge">
+				<ingredient name="cement" count="100"/>
+				<ingredient name="unit_stone" count="500"/>
+				<ingredient name="unit_clay" count="100"/>
+				<ingredient name="paint" count="5"/>
+			</recipe>
+
+			<recipe name="darkGraniteHalf" count="1" craft_area="forge">
+				<ingredient name="cement" count="100"/>
+				<ingredient name="unit_stone" count="500"/>
+				<ingredient name="unit_clay" count="100"/>
+				<ingredient name="paint" count="5"/>
+			</recipe>
+
+		</append>
+	</config>
+</configs>
+

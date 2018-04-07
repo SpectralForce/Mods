@@ -1,0 +1,13 @@
+<mod>
+	<info>
+		<author>Spectral Force</author>
+		<name>redGraniteBlocks</name>
+		<description>Red Granite stone blocks.  Stronger than reinforced concrete blocks, degrades to concrete. The pack includes Block, Ramp, Thin pillar, Fat pillar, Plate and Half Block.</description>
+		<mod_version>1.0</mod_version>
+		<game_version>16.4</game_version>
+		<launcher_version>0.7.2</launcher_version>
+	</info>
+	<config_mods>
+		<import file="Config\rgBlocks.xml" />
+    </config_mods>
+</mod>
