@@ -1,0 +1,120 @@
+<configs>
+	<config name="blocks">
+		<append xpath="/blocks">
+
+			<!-- Blue Granite Blocks -->
+
+			<block id="" name="blueGranitePillar100">
+				<property name="Extends" value="rConcreteMaster" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#blueGraniteBlocks?BlueGranitePillar100Prefab" />
+				<property name="CustomIcon" value="ui_game_symbol_bgpillar100" />
+				<property name="Place" value="TowardsPlacerInverted" />
+				<property name="DowngradeBlock" value="pouredConcretePillar100" />
+				<property name="MaxDamage" value="8000" /> 
+			</block> 
+
+			<block id="" name="blueGranitePillar50">
+				<property name="Extends" value="rConcreteMaster" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#blueGraniteBlocks?BlueGranitePillar50Prefab" />
+				<property name="CustomIcon" value="ui_game_symbol_bgpillar50" />
+				<property name="Place" value="TowardsPlacerInverted" />
+				<property name="DowngradeBlock" value="pouredConcretePillar50" />
+				<property name="MaxDamage" value="8000" /> 
+			</block> 
+
+			<block id="" name="blueGraniteBlock">
+				<property name="Extends" value="rConcreteMaster" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#blueGraniteBlocks?BlueGraniteBlockPrefab" />
+				<property name="CustomIcon" value="ui_game_symbol_bgblock"/>
+				<property name="Place" value="TowardsPlacerInverted" />
+				<property name="DowngradeBlock" value="pouredConcreteBlock" />
+				<property name="MaxDamage" value="8000" />
+			</block>	
+
+			<block id="" name="blueGraniteRamp">
+				<property name="Extends" value="rConcreteMaster" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#blueGraniteBlocks?BlueGraniteRampPrefab" />
+				<property name="CustomIcon" value="ui_game_symbol_bgramp"/>
+				<property name="Place" value="TowardsPlacerInverted" />
+				<property name="DowngradeBlock" value="pouredConcreteRamp" />
+				<property name="MaxDamage" value="8000" />
+			</block>	
+
+			<block id="" name="blueGranitePlate">
+				<property name="Extends" value="rConcreteMaster" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#blueGraniteBlocks?BlueGranitePlatePrefab" />
+				<property name="CustomIcon" value="ui_game_symbol_bgplate"/>
+				<property name="Place" value="TowardsPlacerInverted" />
+				<property name="DowngradeBlock" value="pouredConcretePlate" />
+				<property name="MaxDamage" value="8000" />
+			</block>	
+
+			<block id="" name="blueGraniteHalf">
+				<property name="Extends" value="rConcreteMaster" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#blueGraniteBlocks?BlueGraniteHalfPrefab" />
+				<property name="CustomIcon" value="ui_game_symbol_bghalf"/>
+				<property name="Place" value="TowardsPlacerInverted" />
+				<property name="DowngradeBlock" value="pouredConcreteHalf" />
+				<property name="MaxDamage" value="8000" />
+			</block>	
+
+		</append>
+	</config>
+
+	<config name="recipes">
+		<append xpath="/recipes">
+
+			<!--* Recipes for Creating Blue Granite Blocks -->
+
+			<recipe name="blueGranitePillar100" count="1" craft_area="forge">
+				<ingredient name="cement" count="100"/>
+				<ingredient name="unit_stone" count="500"/>
+				<ingredient name="unit_clay" count="100"/>
+				<ingredient name="paint" count="5"/>
+			</recipe>
+
+			<recipe name="blueGranitePillar50" count="1" craft_area="forge">
+				<ingredient name="cement" count="100"/>
+				<ingredient name="unit_stone" count="500"/>
+				<ingredient name="unit_clay" count="100"/>
+				<ingredient name="paint" count="5"/>
+			</recipe>			
+
+			<recipe name="blueGraniteBlock" count="1" craft_area="forge">
+				<ingredient name="cement" count="100"/>
+				<ingredient name="unit_stone" count="500"/>
+				<ingredient name="unit_clay" count="100"/>
+				<ingredient name="paint" count="5"/>
+			</recipe>
+
+			<recipe name="blueGraniteRamp" count="1" craft_area="forge">
+				<ingredient name="cement" count="100"/>
+				<ingredient name="unit_stone" count="500"/>
+				<ingredient name="unit_clay" count="100"/>
+				<ingredient name="paint" count="5"/>
+			</recipe>
+
+			<recipe name="blueGranitePlate" count="1" craft_area="forge">
+				<ingredient name="cement" count="100"/>
+				<ingredient name="unit_stone" count="500"/>
+				<ingredient name="unit_clay" count="100"/>
+				<ingredient name="paint" count="5"/>
+			</recipe>
+
+			<recipe name="blueGraniteHalf" count="1" craft_area="forge">
+				<ingredient name="cement" count="100"/>
+				<ingredient name="unit_stone" count="500"/>
+				<ingredient name="unit_clay" count="100"/>
+				<ingredient name="paint" count="5"/>
+			</recipe>
+
+		</append>
+	</config>
+</configs>
+
